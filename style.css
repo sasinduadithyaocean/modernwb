@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+/*Navbar Designing*/
+header{
+    background-image: linear-gradient(to right, #871bbdbb, #aa4bb8);
+    
+    
+}
+.navbar-nav{
+    padding: 0px 10px;
+    position: sticky;
+}
+.navbar-nav a{
+    color: aliceblue;
+    font-weight: 600;
+
+}
+.container-fluid .navbar-brand{
+    color: aliceblue;
+    font-weight: 900;
+}
+.fa-solid{
+    color: aliceblue;
+   
+}
+
+
+
+/*main content*/
+.banner{
+    background-image: linear-gradient(to right, #871bbdbb, #aa4bb8);
+    color: #ffffffbb;
+}
+main{
+    background-image: linear-gradient(to right, #871bbdbb, #aa4bb8);
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #ffffffbb;
+    text-decoration: none;
+
+}
+.image-baner{
+    width: 100%;
+
+}
+.bottom-img{
+    width: 100%;
+}
+
+/*Services sections*/
+.services-img{ 
+    width: 100px;
+    margin-top: 40px;
+    
+}
+
+
+.container .btn{
+    background-image: linear-gradient(to right, #871bbdbb, #aa4bb8);
+    margin: 80px 0px 100px 0px;
+    border-radius: 50px;
+
+}
+
+
+/*About Us section*/
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+/*testimonials sections*/
+.testomonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testomonials-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 40%;
+    margin: 0 10px;
+}
+.title-testomonils{
+    padding: 40px 0px;
+}
+/*social media section*/
+.socialmedia{
+    
+    padding: 100px 0px;
+    
+}
+.socialmedia p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.socila-icons img{
+    width: 60px;
+    transition: 0.6s;
+
+}
+.socila-icons a:hover img{
+    transform: translatey(-20px);/*This -20px for rise the icon but if you give 20px the icon will be fall*/ 
+}
+
+
+/*footer section*/
+footer{
+    background-image: linear-gradient(to right, #871bbdbb, #aa4bb8);
+   
+   
+   
+    
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(165, 23, 186), rgb(95, 23, 130));
+
+}
+.footer-box .btn-primary:hover{
+    background-image: linear-gradient(to right, rgb(165, 23, 186), rgb(163, 25, 233));
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: underline;
+    
+   
+
+}
+.copyright{
+    border-top: 1px solid white;
+    
+}
